@@ -1,4 +1,5 @@
-MEMENTO - Svelte, Typescript & TailwindCSS
+# MEMENTO - Svelte, Typescript & TailwindCSS
+
 Template to create a static site with Svelte, Typescript and TailwindCSS
 
 # svelte app
