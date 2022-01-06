@@ -10,6 +10,7 @@ import typescript from '@rollup/plugin-typescript';
 import css from 'rollup-plugin-css-only';
 import postcss from 'rollup-plugin-postcss';
 
+
 const production = !process.env.ROLLUP_WATCH;
 
 function serve() {
@@ -47,8 +48,7 @@ export default {
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production
-			},
-			preprocess: sveltePreprocess()
+			}
 		}),
 
 		// To be able to import css files inside svelte `<script>`
