@@ -1,6 +1,6 @@
 {
   "name": "memento-svelte-typescript-tailwind",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Template to create a static site with Svelte, Typescript and TailwindCSS",
   "scripts": {
     "clean": "node clean-build.js",
