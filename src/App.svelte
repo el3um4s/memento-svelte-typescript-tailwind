@@ -10,7 +10,7 @@
     Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
     how to build Svelte apps.
   </p>
-  <p>Version: 0.0.3</p>
+  <p>Version: 0.0.4</p>
 </main>
 
 <style lang="postcss">

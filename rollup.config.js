@@ -37,14 +37,16 @@ function serve() {
 export default {
 	input: 'src/main.ts',
 	output: {
-		sourcemap: true,
+		sourcemap: !production,
 		format: 'iife',
 		name: 'app',
 		file: 'public/build/bundle.js'
 	},
 	plugins: [
 		svelte({
-			preprocess: sveltePreprocess(),
+			preprocess: sveltePreprocess({
+				sourceMap: !production
+			}),
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production
