@@ -18,7 +18,7 @@
     "@rollup/plugin-node-resolve": "^14.1.0",
     "@rollup/plugin-typescript": "^8.5.0",
     "@tsconfig/svelte": "^3.0.0",
-    "autoprefixer": "^10.4.10",
+    "autoprefixer": "^10.4.11",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.16",
     "postcss-load-config": "^4.0.1",
